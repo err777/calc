@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>calc</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="calc">
+    <div class="calc__clock"><img src="img/clock.png" alt="#"></div>
+    <div class="calc__switch"><img src="img/switch.png" alt="#"></div>
+    <div id="subResultTable" class="calc__subResultTable"></div>
+    <div  id="resultTable" class="calc__resultTable"></div>
+
+    <button type="button" class="calc__button calc__button--grey">C</button>
+    <button type="button" class="calc__button calc__button--grey">+/-</button>
+    <button type="button" class="calc__button calc__button--grey">%</button>
+    <button type="button" class="calc__button calc__button--blue">/</button>
+
+    <button type="button" class="calc__button">7</button>
+    <button type="button" class="calc__button">8</button>
+    <button type="button" class="calc__button">9</button>
+    <button type="button" class="calc__button calc__button--blue">*</button>
+
+    <button type="button" class="calc__button">4</button>
+    <button type="button" class="calc__button">5</button>
+    <button type="button" class="calc__button">6</button>
+    <button type="button" class="calc__button calc__button--blue">-</button>
+
+    <button type="button" class="calc__button">1</button>
+    <button type="button" class="calc__button">2</button>
+    <button type="button" class="calc__button">3</button>
+    <button type="button" class="calc__button calc__button--blue">+</button>
+
+    <button type="button" class="calc__button">.</button>
+    <button type="button" class="calc__button">0</button>
+    <button id="oneStepBack" type="button" class="calc__button">&larr;</button>
+    <button type="button" class="calc__button calc__button--blue">=</button>
+
+    <div class="calc__line">
+      <div class="calc__box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
